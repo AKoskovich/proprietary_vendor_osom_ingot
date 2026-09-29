@@ -785,7 +785,6 @@ PRODUCT_PACKAGES += \
     libsensorslog \
     libsfeShiftExtrapolation \
     libshsc \
-    libshsusr_verinfo \
     libsnapdragoncolor-manager \
     libsnapdragoncolor-qdcm \
     libsns_direct_channel_stub \
