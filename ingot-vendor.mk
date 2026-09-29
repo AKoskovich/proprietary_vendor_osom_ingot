@@ -119,6 +119,7 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/vendor/etc/init/qdcmss.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qdcmss.rc \
     vendor/osom/ingot/proprietary/vendor/etc/init/qmipriod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qmipriod.rc \
     vendor/osom/ingot/proprietary/vendor/etc/init/qms.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qms.rc \
+    vendor/osom/ingot/proprietary/vendor/etc/init/qorvo.uwb-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qorvo.uwb-service.rc \
     vendor/osom/ingot/proprietary/vendor/etc/init/qseecomd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qseecomd.rc \
     vendor/osom/ingot/proprietary/vendor/etc/init/shsusrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/shsusrd.rc \
     vendor/osom/ingot/proprietary/vendor/etc/init/ssgtzd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ssgtzd.rc \
@@ -288,6 +289,8 @@ PRODUCT_COPY_FILES += \
     vendor/osom/ingot/proprietary/vendor/etc/ssg/ta_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/ta_config.json \
     vendor/osom/ingot/proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
     vendor/osom/ingot/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
+    vendor/osom/ingot/proprietary/vendor/etc/uwb/calib_paths:$(TARGET_COPY_OUT_VENDOR)/etc/uwb/calib_paths \
+    vendor/osom/ingot/proprietary/vendor/etc/uwb/libuwb-uci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/uwb/libuwb-uci.conf \
     vendor/osom/ingot/proprietary/vendor/etc/vmmgr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/vmmgr.conf \
     vendor/osom/ingot/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
     vendor/osom/ingot/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
@@ -1167,6 +1170,7 @@ PRODUCT_PACKAGES += \
     dataconnection-saidl.xml \
     manifest_android.hardware.drm-service.widevine.xml \
     manifest_lahaina_identity.xml \
+    qorvo.uwb-service.xml \
     qtiradio-saidl.xml \
     vendor.qti.gnss-service.xml \
     vendor.qti.hardware.perf.xml \
@@ -1188,6 +1192,7 @@ PRODUCT_PACKAGES += \
     android.hardware.identity-service-qti \
     android.hardware.keymaster@4.0-strongbox-service-qti \
     android.hardware.keymaster@4.1-service-qti \
+    android.hardware.qorvo.uwb.service \
     android.hardware.security.keymint-service-qti \
     qconfigservice \
     qcrilNrd \
