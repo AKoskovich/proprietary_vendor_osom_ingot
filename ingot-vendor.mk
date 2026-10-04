@@ -1192,7 +1192,6 @@ PRODUCT_PACKAGES += \
     mlid \
     msm_irqbalance \
     netmgrd \
-    pd-mapper \
     pm-proxy \
     pm-service \
     port-bridge \
